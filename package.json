@@ -1,0 +1,16 @@
+{
+  "name": "cursor-free-vip",
+  "version": "1.0.0",
+  "main": "scripts/server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx scripts/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.30.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}

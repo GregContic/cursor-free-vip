@@ -6,6 +6,6 @@ services:
     startCommand: npm run dev
     envVars:
       - key: OPENAI_API_KEY
-        value: true
+        fromEnv: true
       - key: PORT
         value: 3000
