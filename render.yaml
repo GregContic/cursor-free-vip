@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: cursor-free-vip
+    env: node
+    buildCommand: npm install
+    startCommand: npm run dev
+    envVars:
+      - key: OPENAI_API_KEY
+        value: true
+      - key: PORT
+        value: 3000
